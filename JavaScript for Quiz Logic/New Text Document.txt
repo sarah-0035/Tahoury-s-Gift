@@ -1,0 +1,13 @@
+function checkAnswer() {
+    const userAnswer = document.getElementById('answer').value.toLowerCase();
+    const correctAnswer = "your answer here";  // Put the actual answer, e.g., a date or place
+    const response = document.getElementById('response');
+
+    if (userAnswer === correctAnswer) {
+        response.textContent = "Correct! Here's a special surprise for you!";
+        response.style.color = 'green';
+    } else {
+        response.textContent = "Oops! Try again.";
+        response.style.color = 'red';
+    }
+}
