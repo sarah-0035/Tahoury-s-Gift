@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Special Gift for You</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Journey</h1>
+        <p>Click through the moments we've shared together.</p>
+    </header>
+
+    <section id="quiz">
+        <h2>Let's start with a fun quiz!</h2>
+        <p>Question: When did we first meet?</p>
+        <input type="text" id="answer">
+        <button onclick="checkAnswer()">Submit</button>
+        <p id="response"></p>
+    </section>
+
+    <footer>
+        <p>Made with love, just for you!</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
